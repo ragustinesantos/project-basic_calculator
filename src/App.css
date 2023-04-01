@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #F5F7FB;
+}
+
+main {
+    margin-top: 30vh;
+    padding: 10px;
+    background-color:rgb(150, 116, 151);
+    border-radius: 20px;
+    width: 350px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calcContainer {
+    margin-top: 40px;
+    height: 100%;
+}
+
+.app--display {
+    width: 100%; 
+    max-width: 290px;
+    margin: auto;
+    height: 40px;
+    margin-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    border-radius: 6px;
+}
+
+.inputs {
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-auto-flow: column;
+}
+
+.app--inputButton {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(75, 72, 72);
+    color: coral;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.app--inputButton:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+  }
+
+.app--operation {
+    background: rgb(247, 142, 103);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(75, 72, 72);
+}
+
+.app--operation:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+  }
+
+.app--equals {
+    grid-area: 1 / 5 / span 4;
+}
